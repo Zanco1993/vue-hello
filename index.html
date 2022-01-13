@@ -17,11 +17,21 @@
         <!-- nel v-model l'utente inserisce un testo
         Man mano che scrive, il testo andrà a popolare h1 sottostante -->
         <input v-model="message">
-        
+
         <div class="box">
             <h1 class="title">{{ message }}</h1>
 
         </div>
+
+        <!-- bonus -->
+        <!-- inserimento di un'immagine attraverso
+             i data -->
+
+        <img :src="image" alt="">
+
+         
+
+
     </div>
     
 
