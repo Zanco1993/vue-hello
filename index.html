@@ -38,11 +38,18 @@
          -->
 
         <input v-model= "name">
-        <button @click="saluto">click me!!!</button>
+        <!-- <button @click="saluto">click me!!!</button>
 
         <br>
 
-         <span>Ciao {{ name }}</span>
+         <span>Ciao {{ name }}</span> -->
+
+
+        <button @click="saluto">Cliccami per creare un'immagine</button>
+        <span>
+            <img :src="createImage" alt="">
+        </span>
+
          
 
 
